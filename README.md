@@ -1,3 +1,19 @@
+# Salem Rugby
+
+## Alex Garcia
+
+### Description
+---
+This is Website for Salem Rugby Club for public relation site for the general public as a capstone for epicodus.
+
+### Cloning Project
+---
+1. Go to github.com once there either login into your own account and/or find Portfolio repo here: https://github.com/AlexGarcia2/Portfolio.git
+
+2. Clone down project to your own computer using command line . I use git clone https://github.com/AlexGarcia2/Portfolio.git
+
+ 3. Once the project is clone to you computer open Portfolio in which ever median you use weather that be atom or vs code or vs studios.
+
 ### Capstone Proposel 
 
 #### Salem Rugby club Project's Purpose or Goal: functioning React site with C# backend
