@@ -1,7 +1,8 @@
 import React from 'react';
-import Spartans from './Spartans'
-import LostBoys from './LostBoys'
-import AttackOwls from './AttackOwls'
+import Spartans from './Spartans';
+import LostBoys from './LostBoys';
+import AttackOwls from './AttackOwls';
+
 import { Link } from 'react-router-dom';
 
 function Teams(){
@@ -16,6 +17,9 @@ function Teams(){
       </div>
       <div>
         <AttackOwls/>
+      </div>
+      <div>
+       
       </div>
     </div>
   );
