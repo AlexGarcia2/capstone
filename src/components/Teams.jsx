@@ -2,7 +2,7 @@ import React from 'react';
 import Spartans from './Spartans';
 import LostBoys from './LostBoys';
 import AttackOwls from './AttackOwls';
-
+import Contact from './Contact';
 import { Link } from 'react-router-dom';
 
 function Teams(){
@@ -19,7 +19,7 @@ function Teams(){
         <AttackOwls/>
       </div>
       <div>
-       
+      <button><Link to="/Contact">Contact</Link></button>
       </div>
     </div>
   );
