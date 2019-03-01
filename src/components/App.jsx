@@ -1,5 +1,11 @@
 import React from 'react';
 import Header from './Header';
+import Home from './Home';
+import Teams from './Teams';
+import Contact from './Contact.jsx';
+import Events from './Events';
+import Sponsor from './Sponsor';
+import News from './News';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 
@@ -12,12 +18,18 @@ function App(){
     <div>
       <Header/>
         <Switch>
-          <div style={schedule}>
-          <Route exact path='/' component={Schedule} />
-          <Route path='/newticket' component={NewTicketForm} />
-        </div>
+          <Route exact path='/' component={Home} />
+          <Route path='/Teams' component={Teams} />
+          <Route path='/Events' component={Events} />
+          <Route path='/Contact' component={Contact} />
           <Route component={Error404} />
         </Switch>
+      <div>
+        <News/>
+      </div>
+      <div>
+        <Sponsor/>
+      </div>
     </div>
   );
 }
