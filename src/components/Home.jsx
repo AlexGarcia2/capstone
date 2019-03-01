@@ -1,11 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Teams from './Teams';
+import News from './News';
+import Sponsor from './Sponsor';
+import About from './About';
 
 function Home(){
   return (
     <div>
-      <Teams/> 
+      <About/> 
+      <div>
+        <News/>        
+      </div>
+      <div>
+        <Sponsor/>
+      </div>
     </div>
   );
 }

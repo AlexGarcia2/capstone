@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Home from './Home';
 import Teams from './Teams';
-import Contact from './Contact.jsx';
+import Contact from './Contact';
 import Events from './Events';
 import Sponsor from './Sponsor';
 import News from './News';
@@ -24,12 +24,6 @@ function App(){
           <Route path='/Contact' component={Contact} />
           <Route component={Error404} />
         </Switch>
-      <div>
-        <News/>
-      </div>
-      <div>
-        <Sponsor/>
-      </div>
     </div>
   );
 }

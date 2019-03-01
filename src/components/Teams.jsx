@@ -19,7 +19,7 @@ function Teams(){
         <AttackOwls/>
       </div>
       <div>
-      <button><Link to="/Contact">Contact</Link></button>
+        <Contact/>
       </div>
     </div>
   );
