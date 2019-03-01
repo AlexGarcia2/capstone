@@ -3,16 +3,14 @@ import News from './News';
 import Sponsor from './Sponsor';
 import About from './About';
 
+const test={
+  backgroundColor:'grey'
+}
+
 function Home(){
   return (
-    <div>
-      <About/> 
-      <div>
-        <News/>        
-      </div>
-      <div>
-        <Sponsor/>
-      </div>
+    <div style={test}>
+     <p>picture in for parallax</p>
     </div>
   );
 }

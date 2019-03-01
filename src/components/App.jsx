@@ -4,6 +4,7 @@ import Home from './Home';
 import Teams from './Teams';
 import Contact from './Contact';
 import Events from './Events';
+import About from './About';
 import Sponsor from './Sponsor';
 import News from './News';
 import { Switch, Route } from 'react-router-dom';
@@ -15,7 +16,7 @@ const schedule = {
 
 function App(){
   return (
-    <div>
+    <div >
       <Header/>
         <Switch>
           <Route exact path='/' component={Home} />
@@ -24,6 +25,9 @@ function App(){
           <Route path='/Contact' component={Contact} />
           <Route component={Error404} />
         </Switch>
+        <div>
+          <About/>
+        </div>
     </div>
   );
 }
