@@ -3,15 +3,15 @@ import Sponsor from './Sponsor';
 
 
 const test={
-  backgroundColor:'grey'
+  backgroundColor:'red'
 }
 
-function Home(){
+function MidLowHome(){
   return (
     <div style={test}>
-     <p>picture in for parallax</p>
+     <p>mid low picture in for parallax</p>
     </div>
   );
 }
 
-export default Home;
+export default MidLowHome;

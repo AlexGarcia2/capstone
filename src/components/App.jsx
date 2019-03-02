@@ -6,6 +6,9 @@ import Contact from './Contact';
 import Events from './Events';
 import About from './About';
 import Sponsor from './Sponsor';
+import MidHome from './MidHome';
+import MidLowHome from './MidLowHome';
+import BottomHome from './BottomHome';
 import News from './News';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
@@ -27,6 +30,21 @@ function App(){
         </Switch>
         <div>
           <About/>
+        </div>
+        <div>
+          <MidHome/>
+        </div>
+        <div>
+          <News/>
+        </div>
+        <div>
+          <MidLowHome/>
+        </div>
+        <div>
+          <Sponsor/>
+        </div>
+        <div>
+         <BottomHome/>
         </div>
     </div>
   );
