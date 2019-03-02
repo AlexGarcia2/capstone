@@ -13,13 +13,11 @@ import News from './News';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 
-const schedule = {
-  marginLeft: '250px'
-};
+
 
 function App(){
   return (
-    <div >
+    <div>
       <Header/>
         <Switch>
           <Route exact path='/' component={Home} />
@@ -28,6 +26,7 @@ function App(){
           <Route path='/Contact' component={Contact} />
           <Route component={Error404} />
         </Switch>
+        {/* //need to add state for hide show functionality for this components */}
         <div>
           <About/>
         </div>
