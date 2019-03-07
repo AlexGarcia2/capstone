@@ -1,15 +1,11 @@
 import React from 'react';
-import Sponsor from './Sponsor';
+import scrum from '../assets/scrum.jpg';
 
-
-const test={
-  backgroundColor:'red'
-}
 
 function MidLowHome(){
   return (
-    <div style={test}>
-     <p>mid low picture in for parallax</p>
+    <div>
+      <img src={scrum}/>
     </div>
   );
 }

@@ -1,15 +1,11 @@
 import React from 'react';
-import Sponsor from './Sponsor';
+import ball from '../assets/rugbyBall.jpg';
 
-
-const test={
-  backgroundColor:'grey'
-}
 
 function Home(){
   return (
-    <div style={test}>
-     <p>picture in for parallax</p>
+    <div>
+      <img  src={ball} />
     </div>
   );
 }
