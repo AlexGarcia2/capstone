@@ -18,6 +18,12 @@ const marg={
 const center={
   positionAlign:'center'
 }
+const card={
+  padding:'10px',
+  border:'2px 1px grey',
+  backgroundColor:'#FF875E',
+  opacity: '0.72'
+}
 
 
 
@@ -34,11 +40,24 @@ function Home(){
             tag="figure"
         >
           <img style={imgTest} src={ball} />
+         
+          </Parallax>
+      </div>
+
+      <div style={card}>
+     <Parallax
+            className="firstParallax"
+            offsetYMax={50}
+            offsetYMin={-20}
+            slowerScrollRate
+            tag="figure"
+        >
           <div>
           <About/>
         </div>
           </Parallax>
       </div>
+
         <div>
         <Parallax
             className="firstParallax"
@@ -52,7 +71,7 @@ function Home(){
           </Parallax>
         </div>
 
-        <div>
+        <div style={card}>
         <Parallax
             className="firstParallax"
             offsetYMax={20}
@@ -75,11 +94,23 @@ function Home(){
             tag="figure"
         >
           <img style={imgTest} src={lostBoy} />
-        <div>
-        <Sponsor/>
-        </div>
           </Parallax>
         </div>
+
+        <div style={card}>
+     <Parallax
+            className="firstParallax"
+            offsetYMax={50}
+            offsetYMin={-20}
+            slowerScrollRate
+            tag="figure"
+        >
+          <div>
+          <Sponsor/>
+        </div>
+          </Parallax>
+      </div>
+
         <div>
         <Parallax
             className="firstParallax"

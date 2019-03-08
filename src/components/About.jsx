@@ -1,16 +1,9 @@
 import React from 'react';
 
-const card={
-  padding:'10px',
-  border:'2px 1px grey',
-  backgroundColor:'#FF875E',
-  opacity: '0.5'
-}
-
 
 function About(){
   return (
-    <div style={card}>
+    <div >
       <div>
 
       <h1>mission statement</h1>
