@@ -6,6 +6,7 @@ import { Parallax } from 'react-scroll-parallax';
 import ball from '../assets/rugbyBallNight.jpg';
 import lostBoy from '../assets/lostBoy.jpg';
 import back from '../assets/rugbyBackground.jpg';
+import kick from '../assets/kick.jpg';
 
 const imgTest={
   width:'100vw',
@@ -41,15 +42,42 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={60}
+            offsetYMax={80}
             offsetYMin={-20}
             fasterScrollRate
             tag="figure"           
         >
           <img style={imgTest} src={back} />
+            
+          </Parallax>
+        </div>
+
+        <div>
+        <Parallax
+            className="firstParallax"
+            offsetYMax={20}
+            offsetYMin={-20}
+            slowerScrollRate
+            tag="figure"           
+        >
             <div>
               <News/>
             </div>
+          </Parallax>
+        </div>
+
+        <div>
+        <Parallax
+            className="firstParallax"
+            offsetYMax={20}
+            offsetYMin={-20}
+            fasterScrollRate
+            tag="figure"
+        >
+          <img style={imgTest} src={lostBoy} />
+        <div>
+        <Sponsor/>
+        </div>
           </Parallax>
         </div>
         <div>
@@ -58,12 +86,9 @@ function Home(){
             offsetYMax={80}
             offsetYMin={-20}
             slowerScrollRate
-            tag="figure"
+            tag="figure"           
         >
-          <img style={imgTest} src={lostBoy} />
-        <div>
-        <Sponsor/>
-        </div>
+          <img style={imgTest} src={kick} />
           </Parallax>
         </div>
     </div>
