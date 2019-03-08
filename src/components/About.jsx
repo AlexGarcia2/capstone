@@ -1,8 +1,10 @@
 import React from 'react';
 
 const card={
-  border='2px 1px grey',
-  backgroundColot='#FF875E'
+  padding:'10px',
+  border:'2px 1px grey',
+  backgroundColor:'#FF875E',
+  opacity: '0.5'
 }
 
 
