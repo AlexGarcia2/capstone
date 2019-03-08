@@ -19,10 +19,14 @@ const center={
   positionAlign:'center'
 }
 const card={
+  marginBottom:'100px',
   padding:'10px',
   border:'2px 1px grey',
   backgroundColor:'#FF875E',
   opacity: '0.72'
+}
+const z={
+  zIndex:'-1'
 }
 
 
@@ -61,8 +65,8 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={20}
-            offsetYMin={-20}
+            offsetYMax={80}
+            offsetYMin={-60}
             slowerScrollRate
             tag="figure"           
         >
@@ -100,7 +104,7 @@ function Home(){
         <div >
      <Parallax
             className="firstParallax"
-            offsetYMax={50}
+            offsetYMax={20}
             offsetYMin={-20}
             fasterScrollRate
             tag="figure"
@@ -114,14 +118,15 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={50}
+            offsetYMax={20}
             offsetYMin={-20}
-            slowerScrollRate
+            slowerScrollRate      
             tag="figure"           
         >
           <img style={imgTest} src={kick} />
           </Parallax>
         </div>
+        
     </div>
   );
 }
