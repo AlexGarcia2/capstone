@@ -1,4 +1,5 @@
 import React from 'react';
+import venti from '../assets/ventiMap.png';
 
 
 function Sponsor(){
@@ -11,7 +12,7 @@ function Sponsor(){
         <h3>Venti's Cafe</h3>
         </div>
         <dir>
-          <img src="" alt=""/>
+          <img src={venti} alt=""/>
         </dir>
         <div>
           <p>Modern cafe & taproom serving vegetarian-friendly global fare, plus a gluten-free menu.</p>

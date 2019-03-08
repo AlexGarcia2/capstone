@@ -49,7 +49,7 @@ function Home(){
             className="firstParallax"
             offsetYMax={50}
             offsetYMin={-20}
-            slowerScrollRate
+            fastScrollRate
             tag="figure"
         >
           <div>
@@ -61,9 +61,9 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={80}
+            offsetYMax={20}
             offsetYMin={-20}
-            fasterScrollRate
+            slowerScrollRate
             tag="figure"           
         >
           <img style={imgTest} src={back} />
@@ -74,9 +74,9 @@ function Home(){
         <div style={card}>
         <Parallax
             className="firstParallax"
-            offsetYMax={20}
+            offsetYMax={50}
             offsetYMin={-20}
-            slowerScrollRate
+            fasterScrollRate
             tag="figure"           
         >
             <div>
@@ -90,22 +90,22 @@ function Home(){
             className="firstParallax"
             offsetYMax={20}
             offsetYMin={-20}
-            fasterScrollRate
+            slowerScrollRate
             tag="figure"
         >
           <img style={imgTest} src={lostBoy} />
           </Parallax>
         </div>
 
-        <div style={card}>
+        <div >
      <Parallax
             className="firstParallax"
             offsetYMax={50}
             offsetYMin={-20}
-            slowerScrollRate
+            fasterScrollRate
             tag="figure"
         >
-          <div>
+          <div style={card}>
           <Sponsor/>
         </div>
           </Parallax>
@@ -114,7 +114,7 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={80}
+            offsetYMax={50}
             offsetYMin={-20}
             slowerScrollRate
             tag="figure"           
