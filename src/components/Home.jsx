@@ -3,23 +3,26 @@ import About from './About';
 import News from './News';
 import Sponsor from './Sponsor';
 import { Parallax } from 'react-scroll-parallax';
-import ball from '../assets/rugbyBall.jpg';
-import kick from '../assets/kick.jpg';
-import scrum from '../assets/scrum.jpg';
+import ball from '../assets/rugbyBallNight.jpg';
+import lostBoy from '../assets/lostBoy.jpg';
+import back from '../assets/rugbyBackground.jpg';
 
 const imgTest={
-  width:'80%',
-  height:'500px'
+  width:'100vw',
+  height:'100vh'
 }
 const marg={
   marginTop:'50px'
+}
+const center={
+  positionAlign:'center'
 }
 
 
 
 function Home(){
   return (
-    <div>
+    <div style={center}>
       
       <div style={marg}>
      <Parallax
@@ -43,7 +46,7 @@ function Home(){
             fasterScrollRate
             tag="figure"           
         >
-          <img style={imgTest} src={kick} />
+          <img style={imgTest} src={back} />
             <div>
               <News/>
             </div>
@@ -57,7 +60,7 @@ function Home(){
             slowerScrollRate
             tag="figure"
         >
-          <img style={imgTest} src={scrum} />
+          <img style={imgTest} src={lostBoy} />
         <div>
         <Sponsor/>
         </div>
