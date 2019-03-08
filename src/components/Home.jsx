@@ -19,11 +19,9 @@ const lostImg={
 const marg={
   marginTop:'100px'
 }
-const center={
-  positionAlign:'center'
-}
+
 const card={
-  
+  marginBottom:'100px',
   padding:'10px',
   backgroundColor:'#FF875E'
 }
@@ -33,7 +31,7 @@ const card={
 
 function Home(){
   return (
-    <div style={center}>
+    <div>
       
       <div style={marg}>
      <Parallax
@@ -52,7 +50,7 @@ function Home(){
             className="firstParallax"
             offsetYMax={20}
             offsetYMin={-20}
-            fastScrollRate
+            fasterScrollRate
             tag="figure"
         >
           <div style={card}>
@@ -78,7 +76,7 @@ function Home(){
         <Parallax
             className="firstParallax"
             offsetYMax={0}
-            offsetYMin={-20}
+            offsetYMin={-30}
             fasterScrollRate
             tag="figure"           
         >
@@ -105,7 +103,7 @@ function Home(){
             className="firstParallax"
             offsetYMax={20}
             offsetYMin={-80}
-            slowerScrollRate
+            fasterScrollRate
             tag="figure"
         >
             <div style={card}>
@@ -113,18 +111,6 @@ function Home(){
         </div>
           </Parallax>
       </div>
-
-        <div>
-        <Parallax
-            className="firstParallax"
-            offsetYMax={20}
-            offsetYMin={-80}
-            slowerScrollRate      
-            tag="figure"           
-        >
-          <img style={imgTest} src={kick} />
-          </Parallax>
-        </div>
         
     </div>
   );
