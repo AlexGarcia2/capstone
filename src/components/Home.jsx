@@ -10,7 +10,9 @@ import kick from '../assets/kick.jpg';
 
 const imgTest={
   width:'1200px',
-  height:'100vh'
+  height:'800px',
+  
+  
 }
 const marg={
   marginTop:'100px'
@@ -23,11 +25,10 @@ const card={
   padding:'10px',
   border:'2px 1px grey',
   backgroundColor:'#FF875E',
-  opacity: '0.72'
+  
+ 
 }
-const z={
-  zIndex:'-1'
-}
+
 
 
 
@@ -38,8 +39,8 @@ function Home(){
       <div style={marg}>
      <Parallax
             className="firstParallax"
-            offsetYMax={50}
-            offsetYMin={-60}
+            offsetYMax={20}
+            offsetYMin={-20}
             slowerScrollRate
             tag="figure"
         >
@@ -47,16 +48,15 @@ function Home(){
          
           </Parallax>
       </div>
-
-      <div style={card}>
+      <div>
      <Parallax
             className="firstParallax"
-            offsetYMax={50}
+            offsetYMax={20}
             offsetYMin={-20}
             fastScrollRate
             tag="figure"
         >
-          <div>
+          <div style={card}>
           <About/>
         </div>
           </Parallax>
@@ -75,15 +75,15 @@ function Home(){
           </Parallax>
         </div>
 
-        <div style={card}>
+        <div >
         <Parallax
             className="firstParallax"
-            offsetYMax={50}
+            offsetYMax={0}
             offsetYMin={-20}
             fasterScrollRate
             tag="figure"           
         >
-            <div>
+            <div style={card}>
               <News/>
             </div>
           </Parallax>
@@ -101,15 +101,15 @@ function Home(){
           </Parallax>
         </div>
 
-        <div >
+        <div>
      <Parallax
             className="firstParallax"
             offsetYMax={20}
-            offsetYMin={-20}
+            offsetYMin={-80}
             fasterScrollRate
             tag="figure"
         >
-          <div style={card}>
+            <div style={card}>
           <Sponsor/>
         </div>
           </Parallax>
@@ -118,8 +118,8 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={20}
-            offsetYMin={-20}
+            offsetYMax={0}
+            offsetYMin={-60}
             slowerScrollRate      
             tag="figure"           
         >
