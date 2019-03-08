@@ -10,9 +10,11 @@ import kick from '../assets/kick.jpg';
 
 const imgTest={
   width:'1200px',
-  height:'800px',
-  
-  
+  height:'800px',  
+}
+const lostImg={
+  width:'1200px',
+  height:'600px'
 }
 const marg={
   marginTop:'100px'
@@ -21,12 +23,9 @@ const center={
   positionAlign:'center'
 }
 const card={
-  marginBottom:'100px',
-  padding:'10px',
-  border:'2px 1px grey',
-  backgroundColor:'#FF875E',
   
- 
+  padding:'10px',
+  backgroundColor:'#FF875E'
 }
 
 
@@ -97,7 +96,7 @@ function Home(){
             slowerScrollRate
             tag="figure"
         >
-          <img style={imgTest} src={lostBoy} />
+          <img style={lostImg} src={lostBoy} />
           </Parallax>
         </div>
 
@@ -106,7 +105,7 @@ function Home(){
             className="firstParallax"
             offsetYMax={20}
             offsetYMin={-80}
-            fasterScrollRate
+            slowerScrollRate
             tag="figure"
         >
             <div style={card}>
@@ -118,8 +117,8 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={0}
-            offsetYMin={-60}
+            offsetYMax={20}
+            offsetYMin={-80}
             slowerScrollRate      
             tag="figure"           
         >
