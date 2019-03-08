@@ -13,7 +13,7 @@ const imgTest={
   height:'100vh'
 }
 const marg={
-  marginTop:'50px'
+  marginTop:'100px'
 }
 const center={
   positionAlign:'center'
@@ -39,7 +39,7 @@ function Home(){
      <Parallax
             className="firstParallax"
             offsetYMax={50}
-            offsetYMin={-20}
+            offsetYMin={-60}
             slowerScrollRate
             tag="figure"
         >
@@ -65,8 +65,8 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={80}
-            offsetYMin={-60}
+            offsetYMax={20}
+            offsetYMin={-20}
             slowerScrollRate
             tag="figure"           
         >

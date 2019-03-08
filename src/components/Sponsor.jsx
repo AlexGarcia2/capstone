@@ -2,6 +2,10 @@ import React from 'react';
 import venti from '../assets/ventiMap.png';
 import store from '../assets/ventiStore.jpg';
 
+const card={
+  border:'2px 2px grey',
+  padding:'2px'
+}
 
 function Sponsor(){
   return (
@@ -13,9 +17,9 @@ function Sponsor(){
         <h3>Venti's Cafe</h3>
         <img src={store} alt=""/>
         </div>
-        <dir>
+        <div style={card}>
           <img src={venti} alt=""/>
-        </dir>
+        </div>
         <div>
           <p>Modern cafe & taproom serving vegetarian-friendly global fare, plus a gluten-free menu.</p>
         </div>
