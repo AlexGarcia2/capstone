@@ -9,15 +9,15 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import Error404 from './Error404';
 
 const test ={
-  
-  zIndex:'-1'
+  backgroundColor:'grey'
+
 }
 
 function App(){
     
   return (
-    <div>
-      <div style={test}>
+    <div style={test}>
+      <div >
      <Header/>
       </div>
       <ParallaxProvider>
