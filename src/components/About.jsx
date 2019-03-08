@@ -9,8 +9,9 @@ function About(){
       <h1>mission statement</h1>
 
       <div>
-        <p>Salem Oregon's premier Men's and Women's Rugby Football Club!!!! Striving for success both on the field and off.Based out of Salem Oregon, we are a Non-Profit organization promoting the growth of Rugby in the Salem, Keizer and surrounding areas
-Experienced or not anyone is welcome to join us</p>
+        <p>The Salem Rugby Club (SRC) renews a proud tradition of rugby in Salem that originated in the 1970’s under the “Capital City Rugby Club.” The Capital City Rugby Club practiced and played on the Oregon State hospital field located at D Street and 25th. The Salem Rugby Club can often be found practicing on this very same field.</p>
+        </br>
+        <p>All SRC teams now claim Claggett Creek Park in Keizer, OR as their home pitch for all league matches.</p>
       </div>
 
 

@@ -9,7 +9,7 @@ import back from '../assets/rugbyBackground.jpg';
 import kick from '../assets/kick.jpg';
 
 const imgTest={
-  width:'100vw',
+  width:'1200px',
   height:'100vh'
 }
 const marg={
