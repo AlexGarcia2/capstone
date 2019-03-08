@@ -8,60 +8,60 @@ import kick from '../assets/kick.jpg';
 import scrum from '../assets/scrum.jpg';
 
 const imgTest={
-  width:'100vw',
-  height:'100vh'
+  width:'80%',
+  height:'500px'
+}
+const marg={
+  marginTop:'50px'
 }
 
-const test ={
-  backgroundColor:'grey',
-  zIndex:'-1'
-}
+
 
 function Home(){
   return (
     <div>
       
-      <div>
+      <div style={marg}>
      <Parallax
             className="firstParallax"
-            offsetYMax={20}
+            offsetYMax={50}
             offsetYMin={-20}
             slowerScrollRate
             tag="figure"
         >
           <img style={imgTest} src={ball} />
-          </Parallax>
-      </div>
-          <div style={test}>
+          <div>
           <About/>
         </div>
+          </Parallax>
+      </div>
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={20}
+            offsetYMax={60}
             offsetYMin={-20}
-            slowerScrollRate
+            fasterScrollRate
             tag="figure"           
         >
           <img style={imgTest} src={kick} />
+            <div>
+              <News/>
+            </div>
           </Parallax>
-        </div>
-        <div style={test}>
-          <News/>
         </div>
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={20}
+            offsetYMax={80}
             offsetYMin={-20}
             slowerScrollRate
             tag="figure"
         >
           <img style={imgTest} src={scrum} />
-          </Parallax>
-        </div>
-        <div style={test}>
+        <div>
         <Sponsor/>
+        </div>
+          </Parallax>
         </div>
     </div>
   );

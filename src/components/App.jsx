@@ -8,13 +8,18 @@ import { Switch, Route } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Error404 from './Error404';
 
-
+const test ={
+  
+  zIndex:'-1'
+}
 
 function App(){
     
   return (
     <div>
-      <Header/>
+      <div style={test}>
+     <Header/>
+      </div>
       <ParallaxProvider>
           <Switch>
             <Route exact path='/' component={Home} />
