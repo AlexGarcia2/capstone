@@ -6,11 +6,12 @@ import { Parallax } from 'react-scroll-parallax';
 import ball from '../assets/rugbyBallNight.jpg';
 import lostBoy from '../assets/lostBoy.jpg';
 import back from '../assets/rugbyBackground.jpg';
-import kick from '../assets/kick.jpg';
+
 
 const imgTest={
   width:'1200px',
-  height:'800px',  
+  height:'800px', 
+  opacity:'0.5'
 }
 const lostImg={
   width:'1200px',
