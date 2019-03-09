@@ -90,7 +90,7 @@ function Home(){
         <div>
         <Parallax
             className="firstParallax"
-            offsetYMax={0}
+            offsetYMax={20}
             offsetYMin={-20}
             slowerScrollRate
             tag="figure"
@@ -103,7 +103,7 @@ function Home(){
      <Parallax
             className="firstParallax"
             offsetYMax={20}
-            offsetYMin={-100}
+            offsetYMin={-20}
             fasterScrollRate
             tag="figure"
         >
