@@ -6,12 +6,19 @@ const navBar={
   position:'relative',
   padding:'10px',
   backgroundColor:'white',
-  border:'2px solid black',
+  borderTop:'2px solid black',
+  borderBottom:'2px solid black',
   display:'grid',
   gridTemplateColumns:'auto auto'
 }
-const bottons={
-  float:'right'
+const bottons={  
+  position:'relative',
+  left:'400px',
+  top:'40px', 
+}
+const buttonSpace={
+  color:'black',
+  margin:'10px'
 }
 
 function Header(){
@@ -21,7 +28,7 @@ function Header(){
       <h1>Salem Rugby</h1>
     </div>
     <div style={bottons}>
-      <Link to="/">Home</Link> | <Link to="/Contact">Contact</Link> | <Link to="/Teams">Teams</Link> | <Link to="/Events">Events</Link>
+     <Link style={buttonSpace} to="/">Home</Link>  <Link style={buttonSpace} to="/Contact">Contact</Link>  <Link style={buttonSpace} to="/Teams">Teams</Link>  <Link style={buttonSpace} to="/Events">Events</Link> 
     </div>
     </div>
   );
