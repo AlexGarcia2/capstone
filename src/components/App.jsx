@@ -7,6 +7,7 @@ import Events from './Events';
 import { Switch, Route } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Error404 from './Error404';
+import blackWhite from '../assets/backgroundBlackWhite.jpg';
 
 
 
@@ -15,7 +16,7 @@ import Error404 from './Error404';
 function App(){
     
   return (
-    <div>
+    <div style={blackWhite} >
       <div >
      <Header/>
       </div>
