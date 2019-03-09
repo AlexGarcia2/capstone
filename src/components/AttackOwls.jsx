@@ -1,9 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+
+const teamField={
+  backgroundColor:'#ed3f36',
+  padding:'10px',
+  borderTop:'2px solid grey',
+  borderBottom: '2px solid grey'
+}
 
 function AttackOwls(){
   return (
-    <div>
+    <div style={teamField}>
       <h1>AttackOwls information</h1>
          
 
