@@ -1,6 +1,6 @@
 import React from 'react';
 import News from'./News';
-import { Link } from 'react-router-dom';
+
 
 function Events(){
   return (

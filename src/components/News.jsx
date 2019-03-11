@@ -1,8 +1,9 @@
 import React from 'react';
-import lostBoy from '../assets/lostBoy.jpg';
+
 
 
   const card={
+    height:'250px',
     margin:'50px',
     padding:'10px',
     backgroundColor:'#fff9e7',
@@ -15,15 +16,16 @@ import lostBoy from '../assets/lostBoy.jpg';
 const title={
     background: 'rgba(255, 0, 0, 0.7)',
     width:'500px',
-    paddingLeft:'10px',
+    paddingLeft:'5px',
+    float:'right'
   }
 
 function News(){
   return (
     <div style={card}>
 
-      <div style={title}>
-      <h1>Current News</h1>
+      <div >
+      <h1 style={title} >Current News</h1>
       </div>
       <div>
       <p> "news goes here with maybe with list" </p>

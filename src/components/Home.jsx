@@ -2,7 +2,7 @@ import React from 'react';
 import About from './About';
 import News from './News';
 import Sponsor from './Sponsor';
-import back from '../assets/rugbyBackground.jpg';
+
 
 
 const imgTest={
