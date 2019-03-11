@@ -1,10 +1,13 @@
 import React from 'react';
 
 const card={
-  padding:'20px',
+  margin:'50px',
+  padding:'10px',
   backgroundColor:'#fff9e7',
-  width:'80%',
-  margin:'10%'
+  boxShadow:'2px 2px 5px grey',
+  borderRadius:'5px',
+  background: 'rgba(130, 207, 242, 0.2)',
+  gridRow: '1/2'
 }
 
 const formContent={
