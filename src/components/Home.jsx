@@ -2,7 +2,7 @@ import React from 'react';
 import About from './About';
 import News from './News';
 import Sponsor from './Sponsor';
-import ball from '../assets/rugbyBallNight.jpg';
+
 import lostBoy from '../assets/lostBoy.jpg';
 import back from '../assets/rugbyBackground.jpg';
 
@@ -13,11 +13,7 @@ const imgTest={
 
 }
 
-const card={
 
-  padding:'10px',
-  backgroundColor:'#FF875E'
-}
 
 
 
@@ -26,17 +22,13 @@ function Home(){
   return (
     <div>
       <div>
-        <div style={card}>
-
-        <img src={ball} />
           <About/>
-        </div>
       </div>
 
 
       <div>
-        <div style={card}>
-        <img src={back} />
+        <div>
+
 
           <News/>
         </div>
@@ -44,7 +36,7 @@ function Home(){
 
 
       <div>
-        <div style={card}>
+        <div>
         <img src={lostBoy} />
           <Sponsor/>
         </div>
