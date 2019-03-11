@@ -15,11 +15,16 @@ const imgCard={
   boxShadow:'2px 2px 5px grey',
   borderRadius:'5px',
 }
+const title={
+    background: 'rgba(255, 0, 0, 0.7)',
+    width:'500px',
+    paddingLeft:'10px',
+  }
 
 function Sponsor(){
   return (
     <div style={card}>
-      <h1>Sponsor</h1>
+      <h1 style={title}>Sponsor</h1>
 
       <div>
         <div>

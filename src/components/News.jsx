@@ -1,4 +1,5 @@
 import React from 'react';
+import lostBoy from '../assets/lostBoy.jpg';
 
 
   const card={
@@ -11,18 +12,21 @@ import React from 'react';
     gridRow: '1/2'
   }
 
-
+const title={
+    background: 'rgba(255, 0, 0, 0.7)',
+    width:'500px',
+    paddingLeft:'10px',
+  }
 
 function News(){
   return (
     <div style={card}>
-      <div>
+
+      <div style={title}>
       <h1>Current News</h1>
       </div>
       <div>
-      <p>
-            news goes here with maybe with list
-      </p>
+      <p> "news goes here with maybe with list" </p>
       </div>
     </div>
   );

@@ -9,6 +9,7 @@ import Error404 from './Error404';
 import blackWhite from '../assets/backgroundBlackWhite.jpg';
 
 const background={
+  filter:'blur(5px)',
   position:'absolute',
   width:'100vw',
   height:'100vh',
@@ -16,14 +17,13 @@ const background={
 }
 const routers={
   postion:'absolute',
-
-
 }
+
 
 function App(){
 
   return (
-    <div >
+    <div>
 
       <img style={background} src={blackWhite} />
 

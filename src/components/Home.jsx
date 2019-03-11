@@ -2,8 +2,6 @@ import React from 'react';
 import About from './About';
 import News from './News';
 import Sponsor from './Sponsor';
-
-import lostBoy from '../assets/lostBoy.jpg';
 import back from '../assets/rugbyBackground.jpg';
 
 
@@ -24,27 +22,12 @@ function Home(){
       <div>
           <About/>
       </div>
-
-
       <div>
-        <div>
-
-
           <News/>
-        </div>
       </div>
-
-
       <div>
-        <div>
-        <img src={lostBoy} />
           <Sponsor/>
-        </div>
-
       </div>
-
-
-
     </div>
   );
 }
