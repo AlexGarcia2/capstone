@@ -5,7 +5,7 @@ const card={
   margin:'50px',
   padding:'10px',
   backgroundColor:'#fff9e7',
-  boxShadow:'2px 2px 5px grey',
+  boxShadow:'2px 2px 20px black',
   borderRadius:'5px',
   background: 'rgba(102, 0, 0, 0.6)',
   gridRow: '1/2',
@@ -17,7 +17,8 @@ const img={
   borderRadius:'20%'
 }
 const imgPos={
-  float:'right'
+  float:'right',
+  margin:'10px'
 }
 const fontColor={
   color:'#bbbbbb',

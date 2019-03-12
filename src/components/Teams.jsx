@@ -5,10 +5,10 @@ import AttackOwls from './AttackOwls';
 import Contact from './Contact';
 
 
+
 function Teams(){
   return (
     <div>
-      <h1>Salem Ruby Teams</h1>
       <div>
         <Spartans/>
       </div>

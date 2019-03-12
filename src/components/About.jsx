@@ -5,7 +5,7 @@ const card={
   margin:'50px',
   padding:'10px',
   backgroundColor:'#fff9e7',
-  boxShadow:'2px 2px 5px grey',
+  boxShadow:'2px 2px 20px black',
   borderRadius:'5px',
   background: 'rgba(255, 255, 255, 0.7)',
   gridRow: '1/2'
