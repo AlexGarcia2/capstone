@@ -11,7 +11,7 @@ const navBar={
   display:'grid',
   gridTemplateColumns:'auto auto'
 }
-const bottons={  
+const bottons={
   position:'relative',
   left:'400px',
   top:'40px', 
@@ -28,7 +28,7 @@ function Header(){
       <h1>Salem Rugby</h1>
     </div>
     <div style={bottons}>
-     <Link style={buttonSpace} to="/">Home</Link>  <Link style={buttonSpace} to="/Contact">Contact</Link>  <Link style={buttonSpace} to="/Teams">Teams</Link>  <Link style={buttonSpace} to="/Events">Events</Link> 
+     <Link style={buttonSpace} to="/">Home</Link>  <Link style={buttonSpace} to="/Contact">Contact</Link>  <Link style={buttonSpace} to="/Teams">Teams</Link>  <Link style={buttonSpace} to="/Events">Events</Link>
     </div>
     </div>
   );
