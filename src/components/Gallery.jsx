@@ -4,6 +4,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
+
+
+
 class Gallery extends Component ({
     render() {
         return (
@@ -25,4 +28,5 @@ class Gallery extends Component ({
     }
 })
 
-ReactDOM.render(<Gallery />, document.querySelector('.gallery'));
+render(<DemoCarousel />, document.querySelector('.demo-carousel'));
+export defualt Gallery;
