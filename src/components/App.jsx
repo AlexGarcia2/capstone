@@ -16,7 +16,7 @@ import blackWhite from '../assets/backgroundBlackWhite.jpg';
 function App(){
     
   return (
-    <div style={blackWhite} >
+    <div  >
       <div >
      <Header/>
       </div>
