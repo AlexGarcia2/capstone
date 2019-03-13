@@ -4,7 +4,6 @@ import Home from './Home';
 import Teams from './Teams';
 import Contact from './Contact';
 import Events from './Events';
-import Gallery from './Gallery';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 import blackWhite from '../assets/backgroundBlackWhite.jpg';
@@ -17,7 +16,7 @@ const background={
   zIndex:'-1'
 }
 const routers={
-  postion:'absolute',
+  postion:'relative',
 }
 
 
@@ -35,7 +34,6 @@ function App(){
               <Route exact path='/' component={Home} />
               <Route path='/Teams' component={Teams} />
               <Route path='/Events' component={Events} />
-              <Route path='/Gallery' component={Gallery} />
               <Route path='/Contact' component={Contact} />
               <Route component={Error404} />
             </Switch>
