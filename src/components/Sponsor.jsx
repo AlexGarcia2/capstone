@@ -9,33 +9,42 @@ const card={
   boxShadow:'2px 2px 20px black',
   borderRadius:'5px',
   background: 'rgba(255, 255, 255, 0.7)',
-  gridRow: '1/2'
+  gridRow: '1/2',
+  columnCount:'2',
+  columnGap:'10px'
 }
-const imgCard={
+const imgStore={
+  marginRight:'15px',
+  marginBottom:'10px',
+  float:'left',
+  boxShadow:'2px 2px 5px grey',
+  borderRadius:'5px',
+  height:'400px'
+}
+const imgMap={
   boxShadow:'2px 2px 5px grey',
   borderRadius:'5px',
   height:'400px'
 }
 const title={
+  float:'right',
   background: 'rgba(255, 0, 0, 0.7)',
   width:'500px',
   paddingLeft:'10px',
 }
-const imgPos={
-  float:'right'
-}
+
 
 function Sponsor(){
   return (
     <div style={card}>
-      <h1 style={title}>Sponsor</h1>
+
 
       <div>
         <div>
-          <h3>Venti's Cafe</h3>
+          <h1>Venti's Cafe</h1>
         </div>
-        <div style={imgPos}>
-          <img src={store} style={imgCard}/>
+        <div>
+          <img src={store} style={imgStore}/>
         </div>
         <div>
           <p>We moved from our original location (in the Reed Opera House) in summer of 2008. Our downtown Salem location is bigger and allows for a full kitchen and a full basement bar. We like to say we “crossed the road.”
@@ -46,24 +55,28 @@ function Sponsor(){
         </div>
         <div>
           At Venti’s Downtown, 325 Court St NE, Salem, OR 97301, we pride ourselves on good, clean food, a modern atmosphere, and a commitment to unique flavor, attitude and culture. We now have over 24 rotating craft beer taps, which includes cider and kombucha.
-
         </div>
-        <h4>Cafe open</h4>
-        <ul>
-          <li>"M-Sa 11a – 9p"</li>
-          <li>"Sun 11a – 8p"</li>
-        </ul>
+        <div>
+          <h1 style={title}>Sponsor</h1>
+        </div>
+        <div>
+          <h4>Cafe open</h4>
+          <ul>
+            <li>"M-Sa 11a – 9p"</li>
+            <li>"Sun 11a – 8p"</li>
+          </ul>
 
-        <h4>Basement Bar (21+) open</h4>
-        <ul>
-          <li>"M + Tu 4p – 10p"</li>
-          <li>"Wed + Th 4p – 11p"</li>
-          <li>"Fri 4p –12a"</li>
-          <li>"Sa 4p –12a"</li>
-          <li>"Sun 4p – 8p"</li>
-        </ul>
+          <h4>Basement Bar (21+) open</h4>
+          <ul>
+            <li>"M + Tu 4p – 10p"</li>
+            <li>"Wed + Th 4p – 11p"</li>
+            <li>"Fri 4p –12a"</li>
+            <li>"Sa 4p –12a"</li>
+            <li>"Sun 4p – 8p"</li>
+          </ul>
+        </div>
         <div >
-          <img src={venti} style={imgCard}/>
+          <img src={venti} style={imgMap}/>
         </div>
 
       </div>
