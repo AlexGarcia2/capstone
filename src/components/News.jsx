@@ -4,6 +4,7 @@ import React from 'react';
 
 
   const card={
+    float:'right',
     height:'250px',
     margin:'50px',
     padding:'10px',
@@ -11,7 +12,9 @@ import React from 'react';
     boxShadow:'2px 2px 20px black',
     borderRadius:'5px',
     background: 'rgba(255, 255, 255, 0.7)',
-    gridRow: '1/2'
+    gridRow: '1/2',
+    width:'80%',
+    
   }
 
 const title={
