@@ -1,6 +1,7 @@
 import React from 'react';
 
 const card={
+  marginTop:'200px',
   margin:'50px',
   padding:'10px',
   backgroundColor:'#fff9e7',
@@ -11,7 +12,8 @@ const card={
 }
 
 const formContent={
-  marginLeft:'200px'
+  marginLeft:'30%'
+
 }
 const inputBar={
   margin:'5px',
