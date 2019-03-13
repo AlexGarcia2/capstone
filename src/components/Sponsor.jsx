@@ -27,10 +27,13 @@ const imgMap={
   height:'400px'
 }
 const title={
-  float:'right',
   background: 'rgba(255, 0, 0, 0.7)',
   width:'500px',
   paddingLeft:'10px',
+}
+const spaceDiv={
+  borderBottom:'2xp solid black'
+
 }
 
 
@@ -38,7 +41,10 @@ function Sponsor(){
   return (
     <div style={card}>
 
-
+      <div>
+        <h1 style={title}>Sponsor</h1>
+      </div>
+      <div style={spaceDiv}></div>
       <div>
         <div>
           <h1>Venti's Cafe</h1>
@@ -55,9 +61,6 @@ function Sponsor(){
         </div>
         <div>
           At Venti’s Downtown, 325 Court St NE, Salem, OR 97301, we pride ourselves on good, clean food, a modern atmosphere, and a commitment to unique flavor, attitude and culture. We now have over 24 rotating craft beer taps, which includes cider and kombucha.
-        </div>
-        <div>
-          <h1 style={title}>Sponsor</h1>
         </div>
         <div>
           <h4>Cafe open</h4>

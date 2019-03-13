@@ -9,7 +9,7 @@ const navBar={
   borderBottom:'2px solid black',
   display:'grid',
   gridTemplateColumns:'auto auto',
-  width:'100%'
+  width:'auto'
 }
 const bottons={
   float:'right',
