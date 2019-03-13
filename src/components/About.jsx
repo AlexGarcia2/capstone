@@ -8,7 +8,8 @@ const card={
   boxShadow:'2px 2px 20px black',
   borderRadius:'5px',
   background: 'rgba(255, 255, 255, 0.7)',
-  gridRow: '1/2'
+  gridRow: '1/2',
+  columnCount:'2'
 }
 const fontColor={
   color:'black'
@@ -30,7 +31,7 @@ function About(){
     <div style={card} >
       <div >
         <div style={title}>
-          <h1>History</h1>
+          <h1>About Us</h1>
         </div>
 
       <div>
