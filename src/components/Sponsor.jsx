@@ -10,8 +10,6 @@ const card={
   borderRadius:'5px',
   background: 'rgba(255, 255, 255, 0.7)',
   gridRow: '1/2',
-  columnCount:'2',
-  columnGap:'10px'
 }
 const imgStore={
   marginRight:'15px',
@@ -19,12 +17,12 @@ const imgStore={
   float:'left',
   boxShadow:'2px 2px 5px grey',
   borderRadius:'5px',
-  height:'400px'
+  height:'300px'
 }
 const imgMap={
   boxShadow:'2px 2px 5px grey',
   borderRadius:'5px',
-  height:'400px'
+  height:'300px'
 }
 const title={
   background: 'rgba(255, 0, 0, 0.7)',
@@ -33,8 +31,12 @@ const title={
 }
 const spaceDiv={
   borderBottom:'2xp solid black'
-
 }
+const contentSpace={
+  columnCount:'2',
+  columnGap:'10px'
+}
+
 
 
 function Sponsor(){
@@ -45,7 +47,7 @@ function Sponsor(){
         <h1 style={title}>Sponsor</h1>
       </div>
       <div style={spaceDiv}></div>
-      <div>
+      <div style={contentSpace}>
         <div>
           <h1>Venti's Cafe</h1>
         </div>
@@ -77,11 +79,10 @@ function Sponsor(){
             <li>"Sa 4p –12a"</li>
             <li>"Sun 4p – 8p"</li>
           </ul>
-        </div>
+        </div>        
         <div >
           <img src={venti} style={imgMap}/>
         </div>
-
       </div>
     </div>
   );

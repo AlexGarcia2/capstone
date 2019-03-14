@@ -8,8 +8,7 @@ const card={
   boxShadow:'2px 2px 20px black',
   borderRadius:'5px',
   background: 'rgba(255, 255, 255, 0.7)',
-  gridRow: '1/2',
-  columnCount:'2'
+  gridRow: '2',
 }
 const fontColor={
   color:'black'
@@ -22,19 +21,22 @@ const title={
 const divSpace={
   margin:'5px'
 }
+const contentSpace={
+  columnCount:'2'
+}
 
 
 
 
 function About(){
   return (
-    <div style={card} >
-      <div >
+    <div >
+      <div style={card}>
         <div style={title}>
           <h1>About Us</h1>
         </div>
 
-      <div>
+      <div style={contentSpace}>
         <div style={divSpace}>
           <p>The Salem Spartans are the Salem Rugby Club’s mens team and play in the Pacific Northwest Rugby Football Union (PNRFU), which includes teams from Washington, Idaho, and Oregon. Kyle Anderson and Joseph Boyd originally started the Salem Rugby Club (SRC) as a men’s team in 2011. The Club searched out its first Head Coach, Peter Bale, who coached the team until 2015. The team slowly gained numbers and improved each season until they finally won the Division 3 PNRFU title and went onto nationals. The Club found a new Head Coach in James Tyson, PhD, in 2016 and he remained through the 2017-2018 season. Jeff Rehder is currently handling Head Coaching duties.</p>
         </div>

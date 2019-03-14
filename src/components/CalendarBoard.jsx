@@ -24,7 +24,7 @@ const fontSize={
   color:'#25bda2'
 }
 const schld={
-  color:'	#dbc336',
+  color:'	#ff4d00'
 }
 const table={
   fontSize:'20px',
@@ -42,11 +42,11 @@ function createData(name, Morning, Afternoon, Evening) {
 }
 
 const rows = [
-  createData('Monday', 'Practice 9am-11am', '', ''),
-  createData('Tuesday', '', '', ''),
-  createData('Wednesday', 'Practice 9am-11am', '', ''),
-  createData('Thursday', '', '', ''),
-  createData('Friday', '', '', ''),
+  createData('Monday', '', '', 'Lost boys Practice 7pm-9pm'),
+  createData('Tuesday', '', '', 'Spartans practice 7pm-9pm'),
+  createData('Wednesday', '', '', 'Lost boys Practice 7pm-9pm'),
+  createData('Thursday', '', '', 'Spartans practice 7pm-9pm'),
+  createData('Friday', '', 'SRFC club meeting', ''),
   createData('Saturday', '', 'Home Game 12pm', ''),
   createData('Sunday', '', '', ''),
 ];

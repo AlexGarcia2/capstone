@@ -13,8 +13,8 @@ const navBar={
 }
 const bottons={
   float:'right',
-  marginTop:'70px',
-  marginLeft:'900px'
+  marginTop:'auto',
+  marginLeft:'auto'
 }
 const buttonSpace={
   color:'black',
