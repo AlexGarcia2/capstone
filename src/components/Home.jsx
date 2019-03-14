@@ -2,30 +2,26 @@ import React from 'react';
 import About from './About';
 import News from './News';
 import Sponsor from './Sponsor';
-import { Parallax } from 'react-scroll-parallax';
-import ball from '../assets/rugbyBallNight.jpg';
-import lostBoy from '../assets/lostBoy.jpg';
-import back from '../assets/rugbyBackground.jpg';
+import SalemLogo from '../assets/Salem-Rugby-Logo2.png';
 
-
-const imgTest={
-  width:'1200px',
-  height:'800px', 
-  opacity:'0.5'
-}
-const lostImg={
-  width:'1200px',
-  height:'600px'
-}
-const marg={
-  marginTop:'100px'
-}
-
-const card={
-  marginBottom:'100px',
+const imgCard={
+  margin:'50px',
   padding:'10px',
-  backgroundColor:'#FF875E'
+  backgroundColor:'#fff9e7',
+  boxShadow:'2px 2px 20px black',
+  borderRadius:'5px',
+  background: 'rgba(255, 255, 255, 0.7)',
 }
+
+const imgPos={
+  display: 'block',
+  marginLeft:' auto',
+  marginRight:' auto',
+  width: '50%'
+
+}
+
+
 
 
 
@@ -33,86 +29,16 @@ const card={
 function Home(){
   return (
     <div>
-      
-      <div style={marg}>
-     <Parallax
-            className="firstParallax"
-            offsetYMax={20}
-            offsetYMin={-20}
-            slowerScrollRate
-            tag="figure"
-        >
-          <img style={imgTest} src={ball} />
-         
-          </Parallax>
+      <div style={imgCard}>
+        <img style={imgPos} src={SalemLogo} />
+      </div>
+
+      <div>
+          <About/>
       </div>
       <div>
-     <Parallax
-            className="firstParallax"
-            offsetYMax={20}
-            offsetYMin={-20}
-            fasterScrollRate
-            tag="figure"
-        >
-          <div style={card}>
-          <About/>
-        </div>
-          </Parallax>
-      </div>
-
-        <div>
-        <Parallax
-            className="firstParallax"
-            offsetYMax={20}
-            offsetYMin={-20}
-            slowerScrollRate
-            tag="figure"           
-        >
-          <img style={imgTest} src={back} />
-            
-          </Parallax>
-        </div>
-
-        <div >
-        <Parallax
-            className="firstParallax"
-            offsetYMax={0}
-            offsetYMin={-20}
-            fasterScrollRate
-            tag="figure"           
-        >
-            <div style={card}>
-              <News/>
-            </div>
-          </Parallax>
-        </div>
-
-        <div>
-        <Parallax
-            className="firstParallax"
-            offsetYMax={20}
-            offsetYMin={-20}
-            slowerScrollRate
-            tag="figure"
-        >
-          <img style={lostImg} src={lostBoy} />
-          </Parallax>
-        </div>
-
-        <div>
-     <Parallax
-            className="firstParallax"
-            offsetYMax={20}
-            offsetYMin={-20}
-            fasterScrollRate
-            tag="figure"
-        >
-            <div style={card}>
           <Sponsor/>
-        </div>
-          </Parallax>
       </div>
-        
     </div>
   );
 }

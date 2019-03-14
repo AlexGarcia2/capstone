@@ -1,7 +1,34 @@
 import React from 'react';
 
 const card={
-  backgroundColor:'#fff9e7'
+  marginTop:'200px',
+  margin:'50px',
+  padding:'10px',
+  backgroundColor:'#fff9e7',
+  boxShadow:'2px 2px 20px black',
+  borderRadius:'5px',
+  background: 'rgba(255, 255, 255, 0.5)',
+  gridRow: '1/2'
+}
+
+const formContent={
+  marginLeft:'30%'
+
+}
+const inputBar={
+  margin:'5px',
+  height:'20px',
+  width:'300px'
+}
+const textField={
+  margin:'5px',
+  height:'100px',
+  width:'400px'
+}
+const title={
+  background: 'rgba(255, 0, 0, 0.7)',
+  width:'500px',
+  paddingLeft:'10px',
 }
 
 
@@ -10,16 +37,18 @@ function Contact(){
     <div style={card}>
       <form action="">
           <div>
-            <h2>Please Contact Us</h2>
+            <h2 style={title}>Please Contact Us</h2>
           </div>
-          <div>
-            <input type="text" placeholder="First"/>  <input type="text" placeholder="Last"/>
-          </div>
-          <div>
-          <input type="text" placeholder="Email"/>
-          </div>
-          <div>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+          <div style={formContent}>
+            <div>
+              <input style={inputBar} type="text" placeholder=" First"/>  <input style={inputBar} type="text" placeholder=" Last"/>
+            </div>
+            <div>
+              <input style={inputBar} type="text" placeholder=" Email"/>
+            </div>
+            <div>
+              <textarea style={textField} name="" id="" cols="30" rows="10"></textarea>
+            </div>
           </div>
         </form>
     </div>

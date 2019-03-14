@@ -1,14 +1,32 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-function Gallery(){
-  return (
-    <div>
-      <h1>Salem Ruby Teams</h1>
-      <p> thinking about doing carosel from different events or pictures that are posted from facebook</p>
 
-    </div>
-  );
-}
 
-export default Gallery;
+
+class Gallery extends Component ({
+    render() {
+        return (
+            <Carousel>
+                <div>
+                    <img src="assets/kick.jpg" />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src="assets/lostBoys.jpeg" />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src="assets/girlsTeam.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
+        );
+    }
+})
+
+render(<DemoCarousel />, document.querySelector('.demo-carousel'));
+export defualt Gallery;

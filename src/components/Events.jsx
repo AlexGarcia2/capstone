@@ -1,13 +1,21 @@
 import React from 'react';
 import News from'./News';
-import { Link } from 'react-router-dom';
+import CalendarBoard from './CalendarBoard';
+
+const title={
+    margin:'50px',
+    background: 'rgba(255, 0, 0, 0.7)',
+    width:'500px',
+    paddingLeft:'5px',
+  }
 
 function Events(){
   return (
     <div>
-      <h1>Events information</h1>
+      <h1 style={title} >Events information</h1>
+      <CalendarBoard/>
       <div>
-        <p>need to place a calandar in this spot . also need to figure out if you can hook it up to google calandar</p>
+
       </div>
       <News/>
     </div>

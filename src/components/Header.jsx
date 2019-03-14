@@ -3,32 +3,37 @@ import { Link } from 'react-router-dom';
 
 
 const navBar={
-  position:'relative',
   padding:'10px',
   backgroundColor:'white',
   borderTop:'2px solid black',
   borderBottom:'2px solid black',
   display:'grid',
-  gridTemplateColumns:'auto auto'
+  gridTemplateColumns:'auto auto',
+  width:'auto'
 }
-const bottons={  
-  position:'relative',
-  left:'400px',
-  top:'40px', 
+const bottons={
+  float:'right',
+  marginTop:'70px',
+  marginLeft:'900px'
 }
 const buttonSpace={
   color:'black',
   margin:'10px'
 }
 
+const title={
+  marginLeft:'10px',
+  fontFamily:'impact'
+}
+
 function Header(){
   return (
     <div style={navBar}>
     <div>
-      <h1>Salem Rugby</h1>
+      <h1 style={title}>Salem Rugby</h1>
     </div>
     <div style={bottons}>
-     <Link style={buttonSpace} to="/">Home</Link>  <Link style={buttonSpace} to="/Contact">Contact</Link>  <Link style={buttonSpace} to="/Teams">Teams</Link>  <Link style={buttonSpace} to="/Events">Events</Link> 
+     <Link style={buttonSpace} to="/">Home</Link>  <Link style={buttonSpace} to="/Contact">Contact</Link>  <Link style={buttonSpace} to="/Teams">Teams</Link>  <Link style={buttonSpace} to="/Events">Events</Link>
     </div>
     </div>
   );
